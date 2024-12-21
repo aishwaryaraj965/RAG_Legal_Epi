@@ -1,0 +1,43 @@
+﻿Question number,Variable label,Question type,Question text,Value label
+1,q1,Binary,Does the state/territorial law designate a state medical examiner (ME) office or authority?,"Yes, No"
+1.1,q1c1,Radio Button,"If yes, is the state/territorial ME elected or appointed?",Elected
+1.1.1,q1c1c1_a1,Checkbox,"If appointed, who has the authority to appoint the state/territorial ME?",Governor
+1.1.1,q1c1c1_a2,Checkbox,"If appointed, who has the authority to appoint the state/territorial ME?",Commission or board
+1.1.1,q1c1c1_a3,Checkbox,"If appointed, who has the authority to appoint the state/territorial ME?",Lead/head of state agency
+1.1.1,q1c1c1_a4,Checkbox,"If appointed, who has the authority to appoint the state/territorial ME?",Other
+1.1.1,q1c1c1_a5,Checkbox,"If appointed, who has the authority to appoint the state/territorial ME?",N/A
+1.2,q1c2_a1,Checkbox,"If yes, within which department or entity is the state/territorial ME's office situated?",Law enforcement
+1.2,q1c2_a2,Checkbox,"If yes, within which department or entity is the state/territorial ME's office situated?",[blank]
+1.2,q1c2_a3,Checkbox,"If yes, within which department or entity is the state/territorial ME's office situated?",[blank]
+1.2,q1c2_a4,Checkbox,"If yes, within which department or entity is the state/territorial ME's office situated?",Academic institution
+1.2,q1c2_a5,Checkbox,"If yes, within which department or entity is the state/territorial ME's office situated?",Independent
+1.2,q1c2_a6,Checkbox,"If yes, within which department or entity is the state/territorial ME's office situated?",Other
+1.3,q1c3,Binary,Does the law limit the length of the state/territorial ME's term in office?,"Yes, No"
+1.3.1,q1c3c1,Text Field,"If yes, what is the term length?",[text]
+1.3.2,q1c3c2,Binary,"If yes, does the law limit the number of terms one may serve as the state/territorial ME?","Yes, No"
+2,q2,Binary,Does the law designate a local level medicolegal death investigation authority or office?,"Yes, No"
+2.1,q2c1_a1,Checkbox,"If yes, what type of local medicolegal death investigation authority or office does the law designate or require?",[blank]
+2.1,q2c1_a2,Checkbox,"If yes, what type of local medicolegal death investigation authority or office does the law designate or require?",[blank]
+2.1,q2c1_a3,Checkbox,"If yes, what type of local medicolegal death investigation authority or office does the law designate or require?",[blank]
+2.1,q2c1_a4,Checkbox,"If yes, what type of local medicolegal death investigation authority or office does the law designate or require?",[blank]
+2.1,q2c1_a5,Checkbox,"If yes, what type of local medicolegal death investigation authority or office does the law designate or require?",[blank]
+2.2,q2c2,Binary,Does the law limit the length of the local death investigation authority's term in office?,"Yes, No"
+2.2.1,q2c2c1,Text Field,"If yes, what is the term length?",[text]
+2.2.2,q2c2c2,Binary,"If yes, does the law limit the number of terms one may serve as the local death investigation authority?","Yes, No"
+3,q3,Binary,Does the law expressly require medicolegal death investigation offices to be accredited?,"Yes, No"
+4,q4,Binary,Does the law specify education or qualification requirements for death investigation authorities?,"Yes, No"
+4.1,q4c1_a1,Checkbox,"If yes, what are the education or qualification requirements?",high school diploma
+4.1,q4c1_a2,Checkbox,"If yes, what are the education or qualification requirements?",registered voter
+4.1,q4c1_a3,Checkbox,"If yes, what are the education or qualification requirements?",bachelor's degree
+4.1,q4c1_a4,Checkbox,"If yes, what are the education or qualification requirements?",medical degree
+4.1,q4c1_a5,Checkbox,"If yes, what are the education or qualification requirements?","medical license (physician, license to practice)"
+4.1,q4c1_a6,Checkbox,"If yes, what are the education or qualification requirements?",board certified - forensic pathology
+4.1,q4c1_a7,Checkbox,"If yes, what are the education or qualification requirements?",other healthcare provider training or position
+4.1,q4c1_a8,Checkbox,"If yes, what are the education or qualification requirements?",forensic pathology training or expertise
+4.1,q4c1_a9,Checkbox,"If yes, what are the education or qualification requirements?",death investigation training or education
+4.1,q4c1_a10,Checkbox,"If yes, what are the education or qualification requirements?",American Board of Death Investigator training
+4.1,q4c1_a11,Checkbox,"If yes, what are the education or qualification requirements?",law enforcement position
+4.1,q4c1_a12,Checkbox,"If yes, what are the education or qualification requirements?",law enforcement training
+4.1,q4c1_a13,Checkbox,"If yes, what are the education or qualification requirements?",other
+5,q5,Binary,Does the law require continuing education or training while in office?,"Yes, No"
+6,q6,Binary,Does the law authorize the lead medicolegal death investigation authority (or other government entity) to appoint or designate deputies?,"Yes, No"
