@@ -80,7 +80,7 @@ The system was setup such that the RAG system only used state level policy files
 
 
 ![M2](Images/rag_methods.png "RAG Setup")
-Image Source: Source: “Build Your Own RAG App: A Step-by-Step Guide to Setup LLM locally using Ollama, Python, and ChromaDB”, Dev.https://github.com/user-attachments/assets/373b0b9d-ba23-44e9-b891-96eb6cac2da1 
+Image Source: Source: “Build Your Own RAG App: A Step-by-Step Guide to Setup LLM locally using Ollama, Python, and ChromaDB”
 
 
 # Findings
