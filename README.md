@@ -84,6 +84,13 @@ Image Source: Source: “Build Your Own RAG App: A Step-by-Step Guide to Setup L
 
 # Findings
 
+* Legal Coder Intra-Similarity Evaluation
+
+   Due to many data gaps in the coder texts, similarity scores had a high degree of variability between the questions, pincites, annotations. However some trends were apparent in that binary questions (yes/no) had a high degree of consistency, and staff showed more consistency with each other compared to intern roles. 
+  ![R2](Images/result_tables.png "Coder Results")
+   
+* Validated Legal Coder Responses vs. RAG Automated Responses:
+    Suprisingly many of the similarity evaluations for the RAG vs. Validated answers even the binary responses were low, whereas many of the response annotation scores were on par with the human intra-similairty scores (0.5-0.7). It is possible this is because the RAG system even with specific instructions for Yes/No answers were wordy responses compared to the human responses which adhered to the answer choices for a given question. On the annotation side, the data was not pre-processed to remove filler and stop words so the general language semantics could have increased the similarity evaluations. It is interesting to see high degree of overlap in answer values between the RAG system and the legal coders. In this specific scenario, the citations were not evaluated for accuracy but could be a future avenue to look into. 
 
 
 # References
