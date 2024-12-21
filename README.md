@@ -88,19 +88,20 @@ Image Source: Source: “Build Your Own RAG App: A Step-by-Step Guide to Setup L
 
 # References
 
-References:
 1. Alice, E., Witt., Anna, Huggins., Guido, Governatori., Joshua, Buckley. Encoding
 legislation: a methodology for enhancing technical validation, legal alignment and
 interdisciplinarity. Artificial Intelligence and Law, (2023). doi: 10.1007/s10506-
 023-09350-1
    
-3. Van Rijsbergen, C. (1979, September). Information retrieval: theory and practice.
+2. Van Rijsbergen, C. (1979, September). Information retrieval: theory and practice.
 In Proceedings of the joint IBM/University of Newcastle upon tyne seminar on
 data base systems (Vol. 79, pp. 1-14).
 
-5. Leila, Martini., David, Presley., Sarah, Klieger., Scott, Burris. (2015). Scan of
+3. Leila, Martini., David, Presley., Sarah, Klieger., Scott, Burris. (2015). Scan of
 CDC Legal Epidemiology Articles, 2011-2015. Social Science Research Network,
 doi: 10.2139/SSRN.2683585
+
+4. Citation Format: https://www.legalbluebook.com/ 
 
 
 
