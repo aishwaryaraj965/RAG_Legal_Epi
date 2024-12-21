@@ -129,7 +129,7 @@ def jaccard(list1, list2, should_print):
 
 
     ##segment by question 
-all_col_names = list(df_name_dic["coder_DD_staff"].columns) #check column names to store
+all_col_names = list(df_name_dic["file_1"].columns) #check column names to store
 inc_col_name_list = all_col_names[5:]
 print(inc_col_name_list) # check extracted column names
 
