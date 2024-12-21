@@ -1,5 +1,6 @@
 # RAG_Legal_Epi
 Automated Methods to Improve Legal Coding Assessment
+Project Collaborators: Aishwarya Raj & Michael Pella 
 
 # Table of Contents
 
