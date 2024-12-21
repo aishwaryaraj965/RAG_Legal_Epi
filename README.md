@@ -9,7 +9,9 @@ RAG_Automated_Answers_byState.py | Code for Retrieval Augmented Generation (RAG)
 RAG_Questions | Question Intake for RAG system
 Similarity_Assessment.py | Code for similarity assessment between 2 text files 
 CDC_PHLF_Presentation_Raj.pdf | Project Overview 
-Heatmap_Data | Folder Containing Results from both human coder similarity assessment and RAG system similarity evalution 
+Coder_Data | Folder containing results from both human legal coder similarity assessment against other human coders
+RAG_Data | Folder containing results from RAG outputs, and similarity assessments against other validated human responses 
+Images | Figures used in project
 
 
 # Project Overview
