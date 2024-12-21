@@ -58,7 +58,28 @@ What level of consistency is observed between the answers validated by humans ve
   * Are computational approaches better at conducting legal coding for some questions versus others?
 
 # Methods Setup 
+![M1](Images/similarity_eval_process.png "Similarity Assessment Script")
+To setup the human legal coder evaluation against all other human legal coders, cosine similarity metric was utilized. Additionally columns that are the same in each coder’s data will be hidden from evaluation via masking as to not artificially increase the similarity scoring. Legal coder data will be split the comparison by evaluating all coders by question and each question’s associated pincite (legal citation format) and annotation. This provides insight into the similarity of answers and variance for those answers by question, and also allows gauging of answer consensus across all coders.
 
+Interpreting outputs: The resulting output is a heatmap for each question, pincite associated with each question, and annotation associated with each question, evaluated against all coders.  
+
+Diagonal (Perfect Similarity):
+The diagonal of the heatmap compares each dataframe to itself, so each cell on the diagonal will have a value of 1 (since a dataframe is always 100% similar to itself).
+These values are typically shown as the darkest points, depending on the color map.
+
+Off-Diagonal Values (Pairwise Similarity):
+The off-diagonal cells represent the pairwise cosine similarity between different dataframes.
+Higher similarity (values close to 1) between two dataframes means that the contents of the two dataframes are very similar. This would appear as brighter areas in the heatmap.
+Lower similarity (values close to 0) means the two dataframes share few common elements. These areas will appear as darker spots on the heatmaps
+![R1](Images/ex_similarity_results.png "results example")
+
+For the Retreival Augmented Generation (RAG) LLM system setup, a few considerations were applied to ensure open source access, and privacy. The following tools were used: Ollama, LLM model - mistral     f974a74358d6    4.1 GB
+
+The system was setup such that the RAG system only used state level policy files to answer a set of questions (see RAG_Data/questions_RAG.csv) and provide an output in a specified format (see RAG python code, and template output file RAG_Data/Medicolegal-Death-Investigation-(MLDI)-Phase-I-RAG_Answers.csv). The output of the RAG answers were then compared to the validated consensus answer file from the human legal coders to assess similarity. 
+
+
+![M2](Images/rag_methods.png "RAG Setup")
+Image Source: Source: “Build Your Own RAG App: A Step-by-Step Guide to Setup LLM locally using Ollama, Python, and ChromaDB”, Dev.https://github.com/user-attachments/assets/373b0b9d-ba23-44e9-b891-96eb6cac2da1 
 
 
 # Findings
